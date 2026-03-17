@@ -10,3 +10,13 @@
 - Never skip hooks (`--no-verify`) unless explicitly instructed.
 - Never force push unless explicitly instructed.
 - Always push to the `main` branch unless working on a feature branch that was explicitly requested.
+
+## Skills
+
+- Always use global skills by default.
+- If a project-level skill exists, give it priority over the global equivalent.
+- If a global skill and a project-level skill do the same thing or overlap significantly, always prefer the project-level skill.
+
+## Design
+
+- For any design work (images, visuals, illustrations, graphics), always use the Nano Banana image generation connector — it has already been added to this workspace.
