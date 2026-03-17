@@ -13,9 +13,34 @@
 
 ## Skills
 
-- Always use global skills by default.
-- If a project-level skill exists, give it priority over the global equivalent.
-- If a global skill and a project-level skill do the same thing or overlap significantly, always prefer the project-level skill.
+- Personal skills live at `~/.claude/skills/` — always check there first before using global or built-in skills.
+- Skill priority order (highest to lowest):
+  1. **Project-level skills** — defined inside the current project
+  2. **Personal skills** — located at `~/.claude/skills/`
+  3. **Global skills** — built-in or platform-wide defaults
+- If a personal skill and a global skill overlap or do the same thing, always use the personal skill.
+- If a project-level skill and a personal skill overlap, always use the project-level skill.
+
+### Personal Skills Available (`~/.claude/skills/`)
+
+| Skill | Skill | Skill |
+|---|---|---|
+| ab-test-setup | ad-creative | ai-seo |
+| analytics-tracking | churn-prevention | cold-email |
+| competitor-alternatives | content-strategy | copy-editing |
+| copywriting | email-sequence | explain-code |
+| form-cro | free-tool-strategy | launch-strategy |
+| lead-magnets | marketing-ideas | marketing-psychology |
+| onboarding-cro | page-cro | paid-ads |
+| paywall-upgrade-cro | popup-cro | pricing-strategy |
+| product-marketing-context | programmatic-seo | referral-program |
+| revops | sales-enablement | schema-markup |
+| seo | seo-audit | seo-competitor-pages |
+| seo-content | seo-geo | seo-hreflang |
+| seo-images | seo-page | seo-plan |
+| seo-programmatic | seo-schema | seo-sitemap |
+| seo-technical | signup-flow-cro | site-architecture |
+| social-content | | |
 
 ## Design
 
