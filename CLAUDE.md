@@ -20,3 +20,14 @@
 ## Design
 
 - For any design work (images, visuals, illustrations, graphics), always use the Nano Banana image generation connector — it has already been added to this workspace.
+
+## Memory & History
+
+- A running work log is maintained in [`WORKLOG.md`](./WORKLOG.md).
+- At the **start of every session**, read `WORKLOG.md` to restore context on what has been worked on previously.
+- At the **end of every session** (or when wrapping up a significant piece of work), append a new dated entry to `WORKLOG.md` with:
+  - A short session summary describing what was done and why
+  - A list of files created, modified, or deleted
+  - Any decisions made, open questions, or next steps
+- Always commit and push updates to `WORKLOG.md` along with the related code changes.
+- Never overwrite or delete past entries — only append.
